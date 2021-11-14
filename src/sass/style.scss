@@ -1,0 +1,25 @@
+@import "base/variables";
+@import "reset";
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/benefits";
+@import "media";
+@import "blocks/consultation";
+@import "blocks/title";
+@import "blocks/slider";
+@import "blocks/catalog";
+
+html {
+  font-family: "Museo Sans Cyrl", sans-serif;
+}
+
+body {
+  font-weight: 500;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
