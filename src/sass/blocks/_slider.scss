@@ -5,7 +5,8 @@
     width: 750px;
     margin: 0 auto;
   }
-  .slick-prev, .slick-next {
+  .slick-prev,
+  .slick-next {
     position: absolute;
     border: none;
     background-color: #fff;
@@ -16,5 +17,26 @@
   .slick-next {
     left: auto;
     right: -66px;
+  }
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  li {
+    padding-top: 20px;
+    margin-left: 15px;
+  }
+  button {
+    background-color: rgb(17, 5, 5);
+    width: 12px;
+    height: 10px;
+    font-size: 0;
+    border: none;
+    border-radius: 50%;
+    line-height: 0px;
+    padding: 0px;
+    font-weight: 300;
   }
 }

@@ -1,7 +1,19 @@
 $(document).ready(function(){
   $('.slider__items').slick({
     prevArrow: '<button type="button" class="slick-prev"><img src="../img/slider/arrow-left.png"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="../img/slider/arrow-right.png"</button>'
+    nextArrow: '<button type="button" class="slick-next"><img src="../img/slider/arrow-right.png"</button>',
+ responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+        arrows: false
+      }
+    }
+    ]
   });
 
   $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
