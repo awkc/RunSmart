@@ -6,15 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RunSmart</title>
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
-
+ 
 <body>
 
 
-  <section class="promo">
+  <section id="up" class="promo">
     <div class="container">
       <header class="header">
         <div class="header__logo">
@@ -94,7 +92,7 @@
           и мы перезвоним вам в течении 10 минут</div>
         <form action="#" class="consultation__form">
           <input required placeholder="Ваше имя" type="text">
-          <input required placeholder="Ваш телефон" type="phone">
+          <input name="phone" required placeholder="Ваш телефон">
           <input required placeholder="Ваш E-mail" type="email">
           <button class="button button--form">заказать консультацию</button>
         </form>
@@ -451,7 +449,7 @@
       <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
       <form action="#" class="consultation__form">
         <input required placeholder="Ваше имя" type="text">
-        <input required placeholder="Ваш телефон" type="phone">
+        <input name="phone" required placeholder="Ваш телефон">
         <input required placeholder="Ваш E-mail" type="email">
         <button class="button button--form">заказать консультацию</button>
       </form>
@@ -464,7 +462,7 @@
       <div class="modal__descr">Пульсометр Polar FT1</div>
       <form action="#" class="consultation__form">
         <input required placeholder="Ваше имя" type="text">
-        <input required placeholder="Ваш телефон" type="phone">
+        <input name="phone" required placeholder="Ваш телефон">
         <input required placeholder="Ваш E-mail" type="email">
         <button class="button button--form">купить</button>
       </form>
@@ -476,6 +474,10 @@
       <div class="modal__descr">Пульсометр Polar FT1</div>
       </div>
   </section>
+
+<a href="#up" class="pageup">
+  <img src="icons/pageup.svg" alt="pageup">
+</a>
 
   <footer class="footer">
     <div class="footer__map">
@@ -500,9 +502,10 @@
     </div>
   </footer>
 
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js" ></script>
   <script src="js/script.js"></script>
 
 </body>
